@@ -1,0 +1,86 @@
+body{
+    background-color: cadetblue;
+   
+  }
+  h1{
+    font-size: 38px;
+  }
+ 
+  input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 249, 249);
+    color: #fff6f6;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 249, 249);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  input[type=submit] {
+    background-color: blue;
+    width:300px;
+    height:50px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    outline:none;
+    border: none;
+    color: white;
+    padding: 12px 170px 10px ;
+    text-align: center;
+    font-display: inline-block;
+    /* cursor: pointer; */
+    border-radius: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:22px;
+  
+  }
+ 
+  select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+ 
+  .container{
+    background-color: antiquewhite;
+    border-style: hidden;
+    border-radius: 15px;
+    padding:18px;
+    text-emphasis-color: white;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px black;
+   
+   
+   
+  }
+  @media screen and (max-width:900px){
+ 
+      .main-contianer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+      }
+   
+    }
