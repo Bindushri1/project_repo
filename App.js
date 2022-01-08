@@ -14,7 +14,7 @@ function LoginUi() {
 
          </div>
          <div>
-           <h1>Login Page</h1>
+           <h1>Admin Page</h1>
            <div>
              {/* <img src={email} alt="email" className="email"/> */}
              <input type="text" placeholder="user name" className="name"/>
