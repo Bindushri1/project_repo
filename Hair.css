@@ -1,0 +1,61 @@
+.cs{
+
+    background-image: url("./hair.jpg");
+    
+    margin-left: 310px ;
+    
+    width: 300px;
+    
+    height: 200px;
+    
+    border-radius: 70%;
+    
+    background-repeat: no-repeat;
+    
+    }
+    
+    .cs button{
+    
+    position: absolute;
+    
+    background: rgb(212, 28, 28);
+    
+    background: rgba(0, 0,0, 0);
+    
+    border: none;
+    
+    font-size: 2em;
+    
+    font-family: cursive;
+    
+    display: inline;
+    
+    color: rgb(216, 128, 122);
+    
+    padding-left: 0.5em;
+    
+    padding-top: 2em;
+    
+    cursor: pointer;
+    
+    }
+    
+    .cs:hover
+    
+    {
+    
+    opacity: 0.5;
+    
+    transition-duration: 0.5s;
+    
+    cursor: pointer;
+    
+    }
+    
+    .cs:hover button{
+    
+    color: rgb(189, 37, 37);
+    
+    text-align: centre;
+    
+    }
