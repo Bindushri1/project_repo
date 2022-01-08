@@ -1,0 +1,11 @@
+export { default as Navigation } from "./Navigation";
+export { default as Footer } from "./Footer";
+export { default as Pimples } from "./Pimples";
+export { default as Acne } from "./Acne";
+export { default as Tan } from "./Tan";
+export { default as Dandruff } from "./Dandruff";
+export { default as Hairfall } from "./Hairfall";
+export { default as Itchyscalp } from "./Itchyscalp";
+export { default as Anemia } from "./Anemia";
+export { default as Malnutrition } from "./Malnutrition";
+export { default as Obesity } from "./Obesity";

@@ -1,44 +1,27 @@
-import './login.css';
-
-function LoginUi() {
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Navigation, Footer, Pimples, Acne, Tan, Hairfall, Dandruff, Itchyscalp, Anemia, Malnutrition, Obesity } from "./components";
+function App() {
   return (
-    <div className="main">
-     <div className="sub-main">
-       <div>
-         <div className="imgs">
-           <div className="container-image">
-             {/* <img src={profile} alt="profile" className="profile"/> */}
+    <div className="App">
+    <Router>
+    <Navigation />
+    <Switch>
+      <Route path="/" exact component={() => <Pimples />} />
+      <Route path="/acne" exact component={() => <Acne />} />
+      <Route path="/tan" exact component={() => <Tan />} />
+      <Route path="/hairfall" exact component={() => <Hairfall />} />
+      <Route path="/dandruff" exact component={() => <Dandruff />} />
+      <Route path="/itchyscalp" exact component={() => <Itchyscalp />} /> 
+      <Route path="/anemia" exact component={() => <Anemia />} /> 
+      <Route path="/malnutrition" exact component={() => <Malnutrition />} /> 
+      <Route path="/obesity" exact component={() => <Obesity />} /> 
 
-           </div>
-
-
-         </div>
-         <div>
-           <h1>Admin Page</h1>
-           <div>
-             {/* <img src={email} alt="email" className="email"/> */}
-             <input type="text" placeholder="user name" className="name"/>
-           </div>
-           <div className="second-input">
-             {/* <img src={pass} alt="pass" className="email"/> */}
-             <input type="password" placeholder="password" className="name"/>
-           </div>
-          <div className="login-button">
-          <button>Login</button>
-          </div>
-           
-            <p className="link">
-              <a href="">Forgot password ?</a> Or<a href="">Sign Up</a>
-            </p>
-           
- 
-         </div>
-       </div>
-       
-
-     </div>
-    </div>
+      
+    </Switch>  
+    <Footer />
+    </Router>
+</div>
   );
 }
-
-export default LoginUi;
+export default App;
